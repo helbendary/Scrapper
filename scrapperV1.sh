@@ -23,6 +23,7 @@ done < "$input"
 #removing specific host names
 
 sed -i '/tedata/d' ./Scrapper_Filtered
+sed -i '/etisalat/d' ./Scrapper_Filtered
 
 #Filtering fields to work on
 
