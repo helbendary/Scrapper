@@ -78,7 +78,7 @@ while IFS=' ' read -r line
 						counter_GET=0
 					fi
 
-					if [[ $counter_GET -ge 5 ]]; then
+					if [[ $counter_GET -ge 10 ]]; then
 						echo "$line" >> Scrapper_Final_GET
 						flag_GET=true
 					fi
